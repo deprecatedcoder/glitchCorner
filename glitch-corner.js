@@ -4,7 +4,7 @@ var subProject = window.location.pathname.slice('1');
 
 console.log( "subProject: " + subProject);
 
-if (!subProject.contains("index.htm"))
+if (!subProject.includes(".htm"))
 {
   subProject = subProject + "/index.html";
   console.log( "subProject: " + subProject);
