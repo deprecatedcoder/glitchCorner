@@ -2,9 +2,12 @@ var project = window.location.hostname.replace('.glitch.me', '');
 
 var subProject = window.location.pathname.slice('1');
 
+console.log( "subProject: " + subProject);
+
 if (!subProject.contains("index.htm"))
 {
   subProject = subProject + "/index.html";
+  console.log( "subProject: " + subProject);
 }
 
 document.write( '<a href="https://glitch.com/edit/#!/' + project + '?path=' + subProject + '">' +
