@@ -7,15 +7,15 @@
 
 Utility script for adding a shortcut in the upper right corner to the [glitch](http://glitch.com) source:
 
-Just call the script at the end of your body:
+Just call the script in your head:
 
 ```html
 <html lang="en">
-  <body>
+  <head>
     ...
     
     <!-- glitchCorner: shortcut to source -->
     <script src="https://rawgit.com/deprecatedcoder/glitchCorner/master/glitch-corner.js"></script>
-  </body>
+  </head>
 </html>
 ```
