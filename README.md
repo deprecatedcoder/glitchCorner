@@ -1,6 +1,6 @@
 # glitchCorner
 
-Utility script for adding a shortcut in the upper right corner to the [glitch](glitch.com) source:
+Utility script for adding a shortcut in the upper right corner to the [glitch](http://glitch.com) source:
 
 <p align="right">
   <img alt="Example of Glitch logo in the corner" src="https://i.imgur.com/jmswiGH.png">
